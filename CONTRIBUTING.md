@@ -1,4 +1,4 @@
-# Contributing to MindsDB Education
+# Contributing to Learning Possibilities Education
 
 We love to receive contributions from the community and hear your opinions! 
 

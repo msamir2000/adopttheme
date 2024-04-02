@@ -1,8 +1,8 @@
-# MindsDB eduX ![edux](https://img.shields.io/badge/Open%20edX-theme-green?style=for-the-badge&logo=appveyor)
+# Learning Possibilities eduX ![edux](https://img.shields.io/badge/Open%20edX-theme-green?style=for-the-badge&logo=appveyor)
 
-[![Build Status](https://travis-ci.org/mindsdb/edux.svg?branch=master)](https://travis-ci.org/mindsdb/edux)
+[![Build Status](https://travis-ci.org/Learning Possibilities/edux.svg?branch=master)](https://travis-ci.org/Learning Possibilities/edux)
 
-EduX is a custom theme for Open edX, that follows MindsDB style guides.
+EduX is a custom theme for Open edX, that follows Learning Possibilities style guides.
 
 ## EduX Directory 
 
@@ -32,7 +32,7 @@ edux
 # Installing eduX
 1. First clone the eduX repository:
 ```sh
-git clone https://github.com/mindsdb/edux
+git clone https://github.com/Learning Possibilities/edux
 ```
 2. Add the theme inside openedx themes directory:
 ```sh
