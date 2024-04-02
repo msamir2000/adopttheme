@@ -1,12 +1,10 @@
-# Learning Possibilities eduX ![edux](https://img.shields.io/badge/Open%20edX-theme-green?style=for-the-badge&logo=appveyor)
+# Learning Possibilities LP+ADOPT ![LP+ADOPT](https://lms.lpplus.net/static/LPTheme/images/logo.3fac191c2964.png)
 
-[![Build Status](https://travis-ci.org/Learning Possibilities/edux.svg?branch=master)](https://travis-ci.org/Learning Possibilities/edux)
+adopt Theme is a custom theme for LP+ADOPT, that follows Learning Possibilities style guides.
 
-EduX is a custom theme for Open edX, that follows Learning Possibilities style guides.
+## AdoptTheme Directory 
 
-## EduX Directory 
-
-EduX directory mirrors the assets in the [openedx](https://github.com/edx/edx-platform/tree/master/themes) platform. All of the files must be used in the same place, and with the same name as the files in openedx platform.
+AdoptTheme directory mirrors the assets in the [openedx](https://github.com/edx/edx-platform/tree/master/themes) platform. All of the files must be used in the same place, and with the same name as the files in openedx platform.
 ```
 edux
 └── lms
@@ -29,10 +27,10 @@ edux
         ├── footer.html
 ```
 
-# Installing eduX
-1. First clone the eduX repository:
+# Installing adopttheme
+1. First clone the adopttheme repository:
 ```sh
-git clone https://github.com/Learning Possibilities/edux
+git clone https://github.com/msamir2000/adopttheme
 ```
 2. Add the theme inside openedx themes directory:
 ```sh
