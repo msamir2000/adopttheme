@@ -113,19 +113,7 @@
               <img alt="${_('organization logo')}" src="${footer['logo_image']}">
             </a>
           </p>
-        </div>
-       
-
-        <nav class="nav-legal" aria-label="${_('Legal')}">
-          <ul>
-            % for item_num, link in enumerate(footer['legal_links'], start=1):
-              <li class="nav-legal-0${item_num}">
-                <a href="${link['url']}">${link['title']}</a>
-              </li>
-            % endfor
-            <li><a href="${footer['edx_org_link']['url']}">${footer['edx_org_link']['text']}</a></li>
-          </ul>
-        </nav>
+        </div>              
       </div>
 
       ## Please leave this link and use one of the logos provided
