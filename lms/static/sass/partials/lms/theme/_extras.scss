@@ -1,0 +1,331 @@
+/////////////////// General
+
+$content_padding_top: 24px;
+$content-padding-bottom: 10px;
+$header-height: 75px;
+$footer-height: 125.5px;
+
+body, body.view-profile {
+  min-height: initial;
+  background-color: #fff;
+}
+
+%btn-pl-default-base {
+  border-radius: 0;
+}
+
+.btn, .global-header .nav-links .secondary .btn {
+  border-radius: 0;
+}
+
+%t-title {
+  font-family: $font-family-title;
+}
+
+h1, h2, h3, h1 span, h2 span, h3 span, .nav-item {
+  font-family: $font-family-title;
+}
+
+#content.content-wrapper {
+  @include media-breakpoint-up(lg) {
+    padding-top: $content-padding-top;
+    padding-bottom: $content-padding-bottom;
+    margin-top: $header-height;
+  }
+  min-height: calc(100vh - #{$header-height + $content-padding-top + $content-padding-bottom + $footer-height}); // sticky footer
+}
+#content.content-wrapper {
+    padding-top: 0px !important;
+    margin-top: 66px !important;
+    padding-left:0px !important;
+    padding-right: 0px !important;
+}
+
+////////////////// Fonts
+@import "fonts";
+
+/////////////////// Register/Sign in header
+header.global-header {
+    @include media-breakpoint-up(lg) {
+        position: fixed;
+        top: 0;
+        z-index: 200; // necessary to keep the header on top of other elements
+        overflow: visible; // fix for Safari
+    }
+    //background-color: #4c61bf;
+    /*border-bottom: 2px solid #adadad;*/
+    /*box-shadow: 0px 1px 6px darkgrey !important;*/
+    box-shadow: 0px 1px 6px darkgrey !important;
+}
+
+header.global-header .nav-links .secondary .user-image-frame {
+  border-radius: 0;
+}
+
+header.global-header .nav-links .secondary .dropdown-user-menu {
+  position: fixed;
+}
+.global-header .nav-links .main .nav-tab a:hover {
+    cursor: pointer;
+    border-bottom-color: #0a3055 !important;
+}
+/////////////////// Sign in form
+
+.login-register .form-field {
+    // Hide "Sign in with your company or school link"
+    button.enterprise-login {
+        display: none;
+    }
+}
+.global-header .nav-links .secondary a.sign-in-btn, .global-header .nav-links .secondary .nav-item a.shopping-cart {
+    border: 2px solid #0A3041 !important;
+    background-color: #0a3055 !important;
+}
+/////////////////// Home page
+.home header {
+    box-shadow: none;
+    background-color: #fff;
+}
+.home > header {
+    box-shadow: none;
+    background-color: #fff;
+    background-image: url(/static/LPTheme/images/header-bg.jpg);
+    height: 420px;
+}
+.home > header .title {
+    box-shadow: none;
+    background: none !important;
+    margin-left: 0px !important;
+}
+.home > header .title .course-search .search-button {
+    border: 2px solid #0A3041 !important;
+    background: #0a3055 !important;
+}
+
+.home > header .outer-wrapper {
+    padding: 0;
+    margin-top: 95px !important;
+}
+
+.home > header .title > .heading-group {
+  width: 100%;
+  text-align: center;
+}
+.home > header .title > .heading-group h1, .home > header .title > .heading-group p {
+    text-align: left;
+    color: #fff !important;
+}
+
+.animation-home-header-pop-up, .home > header .outer-wrapper {
+  animation: none;
+}
+
+.highlighted-courses .courses, .find-courses .courses {
+  padding-top: 0;
+}
+
+.home .courses-container .courses .courses-listing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .courses-listing-item {
+    margin: 0 20px 30px 20px;
+    width: 20%;
+    // Fix right margin
+    &:nth-child(4n), &:last-child {
+      margin-right: 20px;
+      width: 20% !important;
+    }
+  }
+}
+div#my-courses {
+    padding-left: 20px;
+
+    h2.header-courses {
+        padding-top: 15px;
+        font-size: 25px !important;
+    }
+}
+
+.courses-container .courses .course .course-image .cover-image .learn-more {
+    border-color: #0a3055 !important;
+    background: #0a3055 !important;
+}
+////////////////// User dashboard /dashboard
+.dashboard .main-container {
+    padding: initial;
+}
+
+////////////////// "View this course as staff/learner/..."
+nav.wrapper-preview-menu {
+    // It is necessary to specify `nav` in order to override the common higher priority rule
+    @include media-breakpoint-up(lg) {
+      margin-top: $header-height;
+    }
+}
+
+////////////////// Course about page
+.course-info header.course-profile {
+    background: #adadad;
+    box-shadow: 0px 2px 5px darkgrey;
+    border-bottom: none;
+
+    .intro-inner-wrapper {
+        border: none;
+        box-shadow: none;
+    }
+}
+.course-info .course-sidebar {
+    background-color: #edf5ff !important;
+    box-shadow: 0px 1px 6px darkgrey !important;
+}
+.course-info {
+    .container {
+        padding-bottom: 0;
+    }
+
+    .course-info .course-sidebar {
+        background-color: #edf5ff !important;
+        box-shadow: 0px 1px 6px darkgrey !important;
+    }
+
+    .details .inner-wrapper > section {
+        margin-bottom: 0;
+    }
+
+    header.course-profile .intro-inner-wrapper .intro .main-cta {
+        a.register {
+            background-color: #0a3055 !important;
+            border: 1px solid #0A3041 !important;
+            border-bottom: 1px solid #0A3041 !important;
+        }
+
+        span.register {
+            @extend %t-copy-base;
+            padding: 10px 0;
+        }
+
+        strong {
+            background-image: none;
+            border-radius: 0;
+            background-color: #0a3055 !important;
+            border: 1px solid #0A3041 !important;
+            border-bottom: 1px solid #0A3041 !important;
+
+            &:hover:not(:disabled) {
+                background-image: none;
+                background-color: #135370 !important;
+            }
+        }
+    }
+}
+
+
+/////////////////// Course search
+.find-courses, .university-profile {
+  background-color: #fff;
+}
+
+/////////////////// User profile
+.view-profile .profile-self .wrapper-profile-field-account-privacy {
+  margin-top: -$content-padding-top;
+}
+.view-profile .wrapper-profile {
+  background-color: #fff;
+}
+
+.view-profile .wrapper-profile-section-container-one .wrapper-profile-section-one {
+  border: solid $primary;
+  border-width: 5px 1px 1px 1px;
+}
+
+// Account settings
+.wrapper-account-settings .wrapper-header {
+  height: 100px;
+}
+.wrapper-account-settings .wrapper-header .header-title {
+  padding-top: 0;
+}
+.wrapper-account-settings .wrapper-header .account-nav button.active {
+  border-bottom-color: $primary;
+}
+
+/////////////////// Footer
+.footer-extra {
+    padding: 20px 25px;
+    background-color: #0a3055;
+    color: #fff;
+}
+.wrapper-footer .nav-colophon {
+    margin: 5px 0 30px 0;
+}
+.wrapper-footer .nav-colophon li {
+    float: left;
+    margin-right: 15px;
+}
+.wrapper-footer .footer-about-openedx:last-child {
+    margin-right: 0;
+}
+
+.wrapper-footer .footer-about-openedx {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    text-align: right;
+    vertical-align: bottom;
+}
+.footer-about-openedx {
+    float: right;
+    display: block;
+    margin-right: 25px;
+    width: 31.76157%;
+    text-align: right;
+    top: -27px !important;
+    position: relative;
+}
+.footer-extra p.footer-copy {
+    font-size: 10px;
+}
+.wrapper-footer {
+    box-shadow: none;
+    padding: 0px !important;
+    background: #d3d3d3;
+    color: #0a3055 !important;
+
+    .wrapper-logo {
+        display: none;
+    }
+
+    .copyright {
+        display: none;
+    }
+
+    .nav-legal ul {
+        display: inline-block;
+    }
+
+    a {
+        color: #0a3055 !important;
+    }
+
+    footer#footer-openedx {
+        padding: 10px 25px;
+    }
+
+    .footer-extra {
+        padding: 20px 25px;
+        background-color: #0a3055;
+        color: #fff;
+    }
+
+    footer#footer-openedx .footer-about-openedx {
+        a {
+            float: none;
+        }
+
+        p {
+            text-align: right;
+        }
+    }
+}
