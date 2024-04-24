@@ -1,18 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\cms",
     "\\cms\\templates",
-    "\\cms\\templates\\widgets",
     "\\lms",
     "\\lms\\static",
-    "\\lms\\static\\certificates",
     "\\lms\\static\\certificates\\css",
     "\\lms\\static\\certificates\\images",
-    "\\lms\\static\\images",
     "\\lms\\static\\images\\bulk_email",
-    "\\lms\\static\\images\\programs"
+    "\\lms\\static\\images\\programs",
+    "\\lms\\templates",
+    "\\lms\\templates\\static_templates"
   ],
-  "SelectedNode": "\\lms\\static\\images\\tutor-logo.png",
+  "SelectedNode": "\\lms\\templates\\static_templates\\what_is_verified_cert.html",
   "PreviewInSolutionExplorer": false
 }
