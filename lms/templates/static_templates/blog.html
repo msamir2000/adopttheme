@@ -1,0 +1,16 @@
+<%page expression_filter="h"/>
+<%! from django.utils.translation import gettext as _ %>
+<%inherit file="../main.html" />
+
+<%block name="pagetitle">${_("Blog")}</%block>
+
+<main id="main" aria-label="Content" tabindex="-1">
+    <section class="container about">
+        <h1>
+            <%block name="pageheader">${page_header or _("Blog")}</%block>
+        </h1>
+        <p>
+            <%block name="pagecontent">{{ PLATFORM_NAME }} is an online learning platform powered by <a href="https://lpplus.com">Learning Possibilities</a>. </%block>
+        </p>
+    </section>
+</main>

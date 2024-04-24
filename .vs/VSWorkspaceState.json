@@ -1,11 +1,18 @@
 {
   "ExpandedNodes": [
     "",
+    "\\cms",
+    "\\cms\\templates",
+    "\\cms\\templates\\widgets",
     "\\lms",
     "\\lms\\static",
-    "\\lms\\templates\\certificates",
-    "\\lms\\templates\\static_templates"
+    "\\lms\\static\\certificates",
+    "\\lms\\static\\certificates\\css",
+    "\\lms\\static\\certificates\\images",
+    "\\lms\\static\\images",
+    "\\lms\\static\\images\\bulk_email",
+    "\\lms\\static\\images\\programs"
   ],
-  "SelectedNode": "\\lms\\static",
+  "SelectedNode": "\\lms\\static\\images\\tutor-logo.png",
   "PreviewInSolutionExplorer": false
 }
