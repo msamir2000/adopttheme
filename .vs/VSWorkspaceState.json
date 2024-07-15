@@ -1,16 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\cms\\templates",
     "\\lms",
     "\\lms\\static",
-    "\\lms\\static\\certificates\\css",
-    "\\lms\\static\\certificates\\images",
-    "\\lms\\static\\images\\bulk_email",
-    "\\lms\\static\\images\\programs",
-    "\\lms\\templates",
-    "\\lms\\templates\\static_templates"
+    "\\lms\\static\\sass\\partials",
+    "\\lms\\static\\sass\\partials\\lms",
+    "\\lms\\static\\sass\\partials\\lms\\theme",
+    "\\lms\\templates"
   ],
-  "SelectedNode": "\\lms\\templates\\static_templates\\what_is_verified_cert.html",
+  "SelectedNode": "\\lms\\templates\\index_overlay.html",
   "PreviewInSolutionExplorer": false
 }
