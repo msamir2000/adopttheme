@@ -1,12 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\cms",
+    "\\cms\\static",
+    "\\cms\\static\\images",
+    "\\cms\\templates",
+    "\\cms\\templates\\widgets",
     "\\lms",
     "\\lms\\static",
-    "\\lms\\static\\sass\\partials",
-    "\\lms\\static\\sass\\partials\\lms",
-    "\\lms\\static\\sass\\partials\\lms\\theme",
-    "\\lms\\templates"
+    "\\lms\\templates",
+    "\\lms\\templates\\static_templates"
   ],
   "SelectedNode": "\\lms\\templates\\index_overlay.html",
   "PreviewInSolutionExplorer": false

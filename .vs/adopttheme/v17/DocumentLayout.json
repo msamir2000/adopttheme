@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\mohamed.samir\\source\\repos\\adopttheme\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mohamed.samir\\source\\repos\\adopttheme\\lms\\templates\\index_overlay.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lms\\templates\\index_overlay.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mohamed.samir\\source\\repos\\adopttheme\\cms\\templates\\widgets\\sock.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cms\\templates\\widgets\\sock.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mohamed.samir\\source\\repos\\adopttheme\\cms\\templates\\widgets\\footer.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cms\\templates\\widgets\\footer.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mohamed.samir\\source\\repos\\adopttheme\\lms\\templates\\footer.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lms\\templates\\footer.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mohamed.samir\\source\\repos\\adopttheme\\lms\\templates\\static_templates\\blog.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lms\\templates\\static_templates\\blog.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mohamed.samir\\source\\repos\\adopttheme\\lms\\templates\\static_templates\\about.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lms\\templates\\static_templates\\about.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mohamed.samir\\source\\repos\\adopttheme\\cms\\templates\\widgets\\sock.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cms\\templates\\widgets\\sock.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,21 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "index_overlay.html",
-              "DocumentMoniker": "C:\\Users\\mohamed.samir\\source\\repos\\adopttheme\\lms\\templates\\index_overlay.html",
-              "RelativeDocumentMoniker": "lms\\templates\\index_overlay.html",
-              "ToolTip": "C:\\Users\\mohamed.samir\\source\\repos\\adopttheme\\lms\\templates\\index_overlay.html",
-              "RelativeToolTip": "lms\\templates\\index_overlay.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-15T12:34:26.275Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -57,61 +28,22 @@
               "RelativeDocumentMoniker": "cms\\templates\\widgets\\sock.html",
               "ToolTip": "C:\\Users\\mohamed.samir\\source\\repos\\adopttheme\\cms\\templates\\widgets\\sock.html",
               "RelativeToolTip": "cms\\templates\\widgets\\sock.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-15T11:56:05.194Z",
+              "WhenOpened": "2024-07-17T11:10:03.13Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "footer.html",
               "DocumentMoniker": "C:\\Users\\mohamed.samir\\source\\repos\\adopttheme\\cms\\templates\\widgets\\footer.html",
               "RelativeDocumentMoniker": "cms\\templates\\widgets\\footer.html",
               "ToolTip": "C:\\Users\\mohamed.samir\\source\\repos\\adopttheme\\cms\\templates\\widgets\\footer.html",
               "RelativeToolTip": "cms\\templates\\widgets\\footer.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAIAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABIAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-15T11:55:47.195Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "footer.html",
-              "DocumentMoniker": "C:\\Users\\mohamed.samir\\source\\repos\\adopttheme\\lms\\templates\\footer.html",
-              "RelativeDocumentMoniker": "lms\\templates\\footer.html",
-              "ToolTip": "C:\\Users\\mohamed.samir\\source\\repos\\adopttheme\\lms\\templates\\footer.html",
-              "RelativeToolTip": "lms\\templates\\footer.html",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAADwAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-15T10:51:31.762Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "blog.html",
-              "DocumentMoniker": "C:\\Users\\mohamed.samir\\source\\repos\\adopttheme\\lms\\templates\\static_templates\\blog.html",
-              "RelativeDocumentMoniker": "lms\\templates\\static_templates\\blog.html",
-              "ToolTip": "C:\\Users\\mohamed.samir\\source\\repos\\adopttheme\\lms\\templates\\static_templates\\blog.html",
-              "RelativeToolTip": "lms\\templates\\static_templates\\blog.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-15T10:04:27.967Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "about.html",
-              "DocumentMoniker": "C:\\Users\\mohamed.samir\\source\\repos\\adopttheme\\lms\\templates\\static_templates\\about.html",
-              "RelativeDocumentMoniker": "lms\\templates\\static_templates\\about.html",
-              "ToolTip": "C:\\Users\\mohamed.samir\\source\\repos\\adopttheme\\lms\\templates\\static_templates\\about.html",
-              "RelativeToolTip": "lms\\templates\\static_templates\\about.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-15T10:04:20.183Z",
+              "WhenOpened": "2024-07-17T11:07:14.789Z",
               "EditorCaption": ""
             }
           ]
